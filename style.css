@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 169, 210);
+}
+.container{
+    width: 42%;
+    min-height: 600px;
+    border: 5px solid rgb(238, 234, 234);
+    margin: 2rem auto;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(46, 116, 116);
+}
+.beskrivning{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(239, 236, 236);
+    font-weight: 600;
+}
+.btn{
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+
+.btn:hover{
+    background-color: rgb(227, 228, 126);
+}
+input{
+    width: 70%;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 6px rgb(73, 68, 68);
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+.todo-list{
+    margin-bottom: 1rem;
+    list-style: none;
+    border: 1px solid rgb(255, 251, 251);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 100%;
+    background-color: rgb(135, 169, 210);
+}
+.item-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+
+}
+.btn-delete{
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+.btn-delete:hover{
+    background-color: rgb(227, 228, 126) ;
+}
+
+
+
+
